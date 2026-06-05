@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Kaveri Virundhu Caters</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Mukta+Malar:wght@400;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,600&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        banana: '#2E7D32',
+                        turmeric: '#FFB300',
+                        sandal: '#FFF8E1',
+                        kumkum: '#D32F2F',
+                        dark: '#1F2937'
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        serif: ['Playfair Display', 'serif'],
+                        tamil: ['Mukta Malar', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-sandal text-dark font-sans antialiased overflow-x-hidden">
+
+    <!-- Navigation Bar -->
+    <nav class="fixed w-full z-50 bg-sandal/95 backdrop-blur-sm shadow-md border-b-2 border-banana/20 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0 flex items-center cursor-pointer" onclick="window.location.href='index.html'">
+                    <svg class="w-8 h-8 text-banana mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                    <div>
+                        <h1 class="font-serif text-xl sm:text-2xl font-bold text-banana leading-none">Kaveri Virundhu</h1>
+                        <span class="text-[10px] sm:text-xs font-tamil text-dark tracking-wide">திருச்சி • Since 2005</span>
+                    </div>
+                </div>
+
+                <div class="hidden md:flex space-x-8 items-center">
+                    <a href="index.html" class="text-dark font-medium hover:text-banana transition">Home</a>
+                    <a href="menu.html" class="text-dark font-medium hover:text-banana transition">Our Menu</a>
+                    <a href="services.html" class="text-banana font-bold border-b-2 border-banana pb-1">Services</a>
+                    <a href="gallery.html" class="text-dark font-medium hover:text-banana transition">Gallery</a>
+                    <a href="contact.html" class="bg-turmeric text-dark px-6 py-2 rounded-full font-bold shadow-md hover:bg-yellow-500 transition">Book Now</a>
+                </div>
+
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-dark hover:text-banana focus:outline-none">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="mobile-menu" class="hidden md:hidden bg-sandal border-t border-banana/20 absolute w-full left-0 shadow-xl">
+            <div class="px-4 pt-2 pb-6 space-y-2 flex flex-col items-center">
+                <a href="index.html" class="block px-3 py-2 text-dark font-medium hover:text-banana">Home</a>
+                <a href="menu.html" class="block px-3 py-2 text-dark font-medium hover:text-banana">Our Menu</a>
+                <a href="services.html" class="block px-3 py-2 text-banana font-bold">Services</a>
+                <a href="gallery.html" class="block px-3 py-2 text-dark font-medium hover:text-banana">Gallery</a>
+                <a href="contact.html" class="mt-4 bg-turmeric text-dark px-8 py-3 rounded-full font-bold shadow-md inline-block">Book Now</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="pt-28 pb-8 md:pt-32 md:pb-12 bg-white text-center px-4">
+        <h2 class="text-4xl md:text-5xl font-serif text-banana font-bold mb-3 md:mb-4">What We Do</h2>
+        <div class="flex items-center justify-center space-x-4 mb-2">
+            <div class="h-px w-8 md:w-16 bg-turmeric"></div>
+            <p class="text-gray-600 font-serif italic text-lg md:text-xl">From 50 guests to 2,000 &mdash; we&rsquo;ve done both</p>
+            <div class="h-px w-8 md:w-16 bg-turmeric"></div>
+        </div>
+        <p class="text-gray-500 font-tamil text-sm md:text-base">விருந்தோம்பல் - எங்கள் பாரம்பரியம்</p>
+    </div>
+
+    <!-- Service 1 -->
+    <section class="py-12 md:py-20 bg-sandal/30">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
+                <div class="rounded-2xl overflow-hidden shadow-xl h-64 md:h-96 order-1 lg:order-1 border-4 border-white">
+                    <img src="images/Banana-leaf-virundhu.png" class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                </div>
+                <div class="order-2 lg:order-2">
+                    <div class="flex items-center mb-3">
+                        <span class="text-banana font-tamil text-sm md:text-base font-bold tracking-widest">❖ பாரம்பரியம் ❖</span>
+                        <span class="ml-3 text-gray-500 text-sm italic font-serif">Our Most Popular Service</span>
+                    </div>
+                    
+                    <h3 class="text-3xl md:text-4xl font-serif text-dark font-bold mb-4">Traditional Ila Virundhu</h3>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-sm md:text-base">
+                        The standard setup for a Trichy wedding. Guests sit in rows on the floor (or on chairs &mdash; your call), and our team serves the 21 items one row at a time. We bring 4 servers per row so it doesn&rsquo;t drag.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-turmeric rounded-full mr-3"></span> Authentic floor mat seating or traditional table setups.</li>
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-turmeric rounded-full mr-3"></span> Dedicated supervisor for every 30 guests.</li>
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-turmeric rounded-full mr-3"></span> Staff dressed in traditional Dhoti/Saree uniform.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Service 2 -->
+    <section class="py-12 md:py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 items-center">
+                <div class="order-2 lg:order-1">
+                    <div class="flex items-center mb-3">
+                        <span class="text-kumkum font-tamil text-sm md:text-base font-bold tracking-widest">❖ நவீன விருந்து ❖</span>
+                        <span class="ml-3 text-gray-500 text-sm italic font-serif">Modern Elegance</span>
+                    </div>
+
+                    <h3 class="text-3xl md:text-4xl font-serif text-dark font-bold mb-4">Round-Table Buffet & Live Counters</h3>
+                    <p class="text-gray-700 mb-6 leading-relaxed text-sm md:text-base">
+                        For receptions, engagement days, and company events. We bring the chafing dishes, the gas stoves, and a guy who does a fruit carving while your guests watch. No rental company needed.
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-kumkum rounded-full mr-3"></span> VIP Round-table service for distinguished guests.</li>
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-kumkum rounded-full mr-3"></span> Live Dosa, Chaat, and Barbeque stations.</li>
+                        <li class="flex items-center text-sm md:text-base text-gray-700"><span class="w-2 h-2 bg-kumkum rounded-full mr-3"></span> We bring our own chafing dishes &mdash; you don&rsquo;t rent anything.</li>
+                    </ul>
+                </div>
+                <div class="rounded-2xl overflow-hidden shadow-xl h-64 md:h-96 order-1 lg:order-2 border-4 border-sandal">
+                    <img src="images/Traditional-serving-2.png" class="w-full h-full object-cover hover:scale-105 transition duration-700">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Banner -->
+    <section class="py-12 md:py-16 bg-banana text-white border-y-8 border-turmeric/50">
+        <div class="max-w-4xl mx-auto px-4 text-center">
+            <h3 class="text-2xl md:text-4xl font-serif font-bold mb-4 text-turmeric">Not sure which setup fits your venue?</h3>
+            <p class="text-sm md:text-lg text-sandal mb-8 font-light">Our event managers offer free site visits in and around Trichy to help you plan the perfect dining flow.</p>
+            <a href="contact.html" class="inline-block bg-turmeric text-dark px-8 md:px-10 py-3 md:py-4 rounded-full font-bold shadow-lg hover:bg-yellow-500 transition transform hover:-translate-y-1 text-base md:text-lg w-full sm:w-auto border-2 border-transparent hover:border-dark">
+                Talk to Us
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-sandal pt-16 pb-8 border-t-4 border-turmeric">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+
+                <div class="col-span-1 md:col-span-2">
+                    <div class="flex items-center mb-6">
+                        <svg class="w-8 h-8 text-turmeric mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8"></path></svg>
+                        <h2 class="font-serif text-3xl font-bold text-turmeric tracking-wide">Kaveri Virundhu</h2>
+                    </div>
+                    <p class="text-gray-400 mb-6 leading-relaxed max-w-md">
+                        Run by the Subramanian family out of Thillai Nagar. Same sambar recipe since 2005, same cook Murugan anna in the kitchen on every big day.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg uppercase tracking-wider">Quick Links</h4>
+                    <ul class="space-y-3">
+                        <li><a href="index.html" class="text-gray-400 hover:text-turmeric transition flex items-center"><span class="mr-2">›</span> Home</a></li>
+                        <li><a href="menu.html" class="text-gray-400 hover:text-turmeric transition flex items-center"><span class="mr-2">›</span> Our Menu</a></li>
+                        <li><a href="services.html" class="text-gray-400 hover:text-turmeric transition flex items-center"><span class="mr-2">›</span> Services</a></li>
+                        <li><a href="gallery.html" class="text-gray-400 hover:text-turmeric transition flex items-center"><span class="mr-2">›</span> Gallery</a></li>
+                        <li><a href="contact.html" class="text-gray-400 hover:text-turmeric transition flex items-center"><span class="mr-2">›</span> Contact</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-white font-bold mb-6 text-lg uppercase tracking-wider">Operating Hours</h4>
+                    <ul class="space-y-3 text-gray-400">
+                        <li class="flex justify-between"><span>Mon - Sun:</span> <span>9:00 AM - 9:00 PM</span></li>
+                        <li class="pt-4 mt-4 border-t border-gray-700 text-sm">
+                            Call before you drop by &mdash; we&rsquo;re usually cooking.
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center">
+                <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                    &copy; 2026 Kaveri Virundhu Caters. All rights reserved.
+                </p>
+                <div class="flex space-x-6">
+                    <a href="#" class="text-gray-500 hover:text-turmeric transition">
+                        <span class="sr-only">Facebook</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M22 12c0-5.523-4.477-10-10-10S2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.878v-6.987h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.988C18.343 21.128 22 16.991 22 12z" clip-rule="evenodd" /></svg>
+                    </a>
+                    <a href="#" class="text-gray-500 hover:text-turmeric transition">
+                        <span class="sr-only">Instagram</span>
+                        <svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" d="M12.315 2c2.43 0 2.784.013 3.808.06 1.064.049 1.791.218 2.427.465a4.902 4.902 0 011.772 1.153 4.902 4.902 0 011.153 1.772c.247.636.416 1.363.465 2.427.048 1.067.06 1.407.06 4.123v.08c0 2.643-.012 2.987-.06 4.043-.049 1.064-.218 1.791-.465 2.427a4.902 4.902 0 01-1.153 1.772 4.902 4.902 0 01-1.772 1.153c-.636.247-1.363.416-2.427.465-1.067.048-1.407.06-4.123.06h-.08c-2.643 0-2.987-.012-4.043-.06-1.064-.049-1.791-.218-2.427-.465a4.902 4.902 0 01-1.772-1.153 4.902 4.902 0 01-1.153-1.772c-.247-.636-.416-1.363-.465-2.427-.047-1.024-.06-1.379-.06-3.808v-.63c0-2.43.013-2.784.06-3.808.049-1.064.218-1.791.465-2.427a4.902 4.902 0 011.153-1.772A4.902 4.902 0 015.45 2.525c.636-.247 1.363-.416 2.427-.465C8.901 2.013 9.256 2 11.685 2h.63zm-.081 1.802h-.468c-2.456 0-2.784.011-3.807.058-.975.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.882-.344 1.857-.047 1.023-.058 1.351-.058 3.807v.468c0 2.456.011 2.784.058 3.807.045.975.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.882.3 1.857.344 1.054.048 1.37.058 4.041.058h.08c2.597 0 2.917-.01 3.96-.058.976-.045 1.505-.207 1.858-.344.466-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.882.344-1.857.048-1.055.058-1.37.058-4.041v-.08c0-2.597-.01-2.917-.058-3.96-.045-.976-.207-1.505-.344-1.858a3.097 3.097 0 00-.748-1.15 3.098 3.098 0 00-1.15-.748c-.353-.137-.882-.3-1.857-.344-1.023-.047-1.351-.058-3.807-.058zM12 6.865a5.135 5.135 0 110 10.27 5.135 5.135 0 010-10.27zm0 1.802a3.333 3.333 0 100 6.666 3.333 3.333 0 000-6.666zm5.338-3.205a1.2 1.2 0 110 2.4 1.2 1.2 0 010-2.4z" clip-rule="evenodd" /></svg>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        btn.addEventListener('click', () => { menu.classList.toggle('hidden'); });
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+.vercel
+node_modules/
+desktop.ini
+*.pdf
+package.json
+package-lock.json
